@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>AI Object Finder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <script src="objectFinder.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="btn header">
+            <h1 class="heading">
+                <a href="home.html"><img class="logo" src="logo.png"></a>
+                AI Object Finder
+            </h1>
+        </div>
+        <center>
+            <div>
+                <div class="inline_div" id="input_div">
+                    <input type="text" placeholder="enter object name" id="object_input">
+                    <img id="search" src="search.png" onclick="start()">
+                </div>
+            </div>
+            <h3 class="btn start" onclick="start()">Start</h3>
+            <br>
+            <h3 class="btn" id="object_status"></h3>
+            <h3 class="btn" id="found_status"></h3>
+        </center>
+    </body>
+</html>

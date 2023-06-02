@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>AI Object Finder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="btn header">
+            <h1 class="heading">
+                <img class="logo" src="logo.png">
+                AI Object Finder
+            </h1>
+        </div>
+        <div class="split left">
+            <h2>Welcome to AI Object Finder web-app!</h2>
+            <h4>
+                This web-app is made for an animal rescue organization, Protractor. It works with an aim to give
+                home to all the homeless animals in the state. They'll be needing help of video surveillance
+                department to tell them if they find any such animals on they webcam. To make their task easy,
+                we've launched this web-app, using which they can easily find homeless animals. You simply have
+                to type the name of the animal in the search bar and it'll detect that particular animal. This
+                web-app uses an object detecting model called CoCoSSD, which aims to find multiple objects in a
+                single image.
+                <br>
+                <b>NOTE : </b> Search the animal by the name present in the CoCoSSD Model.
+            </h4>
+            <br>
+            <a href="objectFinder.html"><p class="btn navigate">Get Started</p></a>
+        </div>
+        <div class="split right">
+            <img class="bg" src="bg.png">
+        </div>
+    </body>
+</html>

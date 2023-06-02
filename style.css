@@ -1,0 +1,90 @@
+/*body*/
+body {
+    background-color: #CDE8E6;
+    font-family: "Montserrat";
+}
+/*bg*/
+.bg {
+    float: right;
+    width: 400px;
+    height: 400px;
+}
+/*header*/
+.header {
+    background-color: #B8D4D3;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.heading {
+    float: left;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+/*screen divisions*/
+.split {
+    height: 80%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.left {
+    padding-left: 10px;
+    left: 0;
+}
+.right {
+    padding-right: 10px;
+    right: 0;
+}
+/*divs*/
+.inline_div {
+    display: inline-flex;
+}
+/*buttons and labels*/
+.navigate {
+    width: 250px;
+    height: 50px;
+    background-color: #B8D4D3;
+    border-radius: 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.start, #found_status, #object_status {
+    width: fit-content;
+    height: 38px;
+    background-color: #B8D4D3;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+}
+/*search bar*/
+#input_div{
+    margin-top: 20px;
+}
+#input_div img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+#object_input {
+    width: 275px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: 5px 5px 16px grey;
+}
+/*canvas*/
+canvas {
+    border-radius: 10px;
+    border: 4px solid grey;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
